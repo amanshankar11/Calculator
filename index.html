@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personalized Calculator</title>
+
+        <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
+        <h1>Calculator</h1>
+        <link rel="stylesheet" href="./calcstyle.css"/>
+    </head>
+    <body>
+        <div class="calculator">
+            <div id="first_num" class="num">
+            <label for="num1">Enter the First Number :</label>
+            <input type="text" id="num1">
+            </div>
+            <div id="second_num" class="num">
+            <label for="num2">Enter the Second Number :</label>
+            <input type="text" id="num2">
+            </div>
+            <div id="opterations" class="num">
+            <label for="button">Operation : </label>
+            <select id="operations" >
+            <option value="none"></option>
+            <option value="Addtion">Addition</option>
+            <option value="Subtraction">Subtraction</option>
+            <option value="Multiply">Multiply</option>
+            <option value="Division">Division</option>
+            <option value="Remainder">Remainder</option>
+            </select>
+            </div>
+            
+            <div id="result" class="button">
+                <button type="submit">Calculate</button>
+            </div>
+            <div id="reset" class="button">
+                <button type="reset">Reset</button>
+            </div>
+            <div id="button2">
+            <button id="change">Change user</button>
+        </div>
+        </div>
+        
+        <script src="./calcmain.js"></script>
+    </body>
+</html>
